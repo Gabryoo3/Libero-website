@@ -1,0 +1,37 @@
+.search-bar {
+    background-color: #003366; /* Background color */
+    padding: 10px;
+
+}
+.search-bar .input-group {
+    width: 100%;
+}
+.search-bar .form-control {
+    border: none;
+    box-shadow: none;
+    background-color: #003366; /* Background color */
+    color: #fff; /* Text color */
+    height: 36px;
+}
+.search-bar .form-control::placeholder {
+    color: #fff; /* Placeholder text color */
+}
+.search-bar .input-group-prepend .input-group-text {
+    background-color: #003366; /* Background color */
+    border: none;
+}
+.search-bar div.split1{
+    color: #ffffff;
+}
+
+.navbar-nav a{
+    color:#82b0f0
+}
+
+
+.navbar-nav a:hover{
+    color: #ffffff ; /* Text color on hover */
+}
+.dropdown-menu{
+    background-color: #0d396f; /* Background color */
+}
