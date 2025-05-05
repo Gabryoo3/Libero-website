@@ -36,12 +36,18 @@
     color: green !important;
 }
 
+.offcanvas-body{
+    background-color: #071425;
+    padding-top: 0;
+}
+
 .dropdown-center{
-    height: 100%;
+    position: relative;
+    background-color: #0d396f;
+
 }
 
 .dropdown-center .btn{
-    height: 100%;
     background-color: #0d396f;
     color: #ffffff;
 }
@@ -96,5 +102,9 @@
     background-color: violet;
 }
 
+p, a, span,header,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
 
 
