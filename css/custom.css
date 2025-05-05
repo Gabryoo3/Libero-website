@@ -1,10 +1,7 @@
 
 .navbar{
     background-color: #071425; /* Background color */
-    border: none; /* Remove border */
-    box-shadow: none; /* Remove shadow */
-    height: 80px;
-    padding-right: 0
+    height: 60px;
 }
 .navbar-nav a{
     color:#82b0f0
@@ -13,15 +10,56 @@
     color: #ffffff ; /* Text color on hover */
 }
 
-.search-bar{
-    background-color: #003366; /* Background color */
+.navbar .search-bar{
+    background-color: #092952; /* Background color */
     border: none; /* Remove border */
     box-shadow: none; /* Remove shadow */
-    height: 80px;
+    height: 100%;
     align-content: center;
 }
+.form-control{
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+}
 
-.main-article{
+.form-control::placeholder {
+    color: white;
+}
+.form-control:focus {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: white;
+}
+.form-control:focus::placeholder {
+    color: green !important;
+}
+
+.dropdown-center{
+    height: 100%;
+}
+
+.dropdown-center .btn{
+    height: 100%;
+    background-color: #0d396f;
+    color: #ffffff;
+}
+
+.dropdown-center .btn:focus{
+    background-color: #d7eaff;
+    color: #0d396f;
+    border: none;
+}
+.dropdown-center .dropdown-menu a{
+    padding: 10px 20px;
+}
+
+.dropdown-center .dropdown-menu a:hover{
+    background-color: #d7eaff;
+}
+
+.head-article{
     background-color: #003366; /* Background color */
     border: none; /* Remove border */
     box-shadow: none; /* Remove shadow */
@@ -39,6 +77,19 @@
 
 .page-content{
     background-color: green;
+    margin-top: 140px;
+}
+
+.central-zone .central-articles{
+    margin-top: 220px;
+}
+
+.central-zone .central-articles .left-articles{
+    background-color: cyan;
+}
+
+.central-zone .central-articles .right-articles{
+    background-color: violet;
 }
 
 
