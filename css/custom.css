@@ -10,11 +10,11 @@
     color: #ffffff ; /* Text color on hover */
 }
 
+
 .navbar .search-bar{
     background-color: #092952; /* Background color */
     border: none; /* Remove border */
     box-shadow: none; /* Remove shadow */
-    height: 100%;
     align-content: center;
 }
 .form-control{
@@ -82,6 +82,10 @@
 
 .central-zone .central-articles{
     margin-top: 220px;
+}
+
+.central-zone .container-fluid{
+    min-width: 450px;
 }
 
 .central-zone .central-articles .left-articles{
