@@ -33,7 +33,7 @@
     color: white;
 }
 .form-control:focus::placeholder {
-    color: green !important;
+    color: white !important;
 }
 
 .offcanvas-body{
@@ -82,7 +82,6 @@
 }
 
 .page-content{
-    background-color: green;
     margin-top: 140px;
 }
 
