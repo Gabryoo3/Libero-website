@@ -20,6 +20,9 @@
     body{
         max-width: 450px;
     }
+    .head-article p{
+        font-size: 12px;
+    }
 }
 
 
