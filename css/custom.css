@@ -10,6 +10,18 @@
     color: #ffffff ; /* Text color on hover */
 }
 
+@media screen and (min-width: 992px){
+    .page-content{
+        min-width: 800px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    body{
+        max-width: 450px;
+    }
+}
+
 
 .navbar .search-bar{
     background-color: #092952; /* Background color */
