@@ -15,7 +15,6 @@
     background-color: #092952; /* Background color */
     border: none; /* Remove border */
     box-shadow: none; /* Remove shadow */
-    align-content: center;
 }
 .form-control{
     background-color: transparent;
