@@ -16,12 +16,16 @@
     }
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 450px){
     body{
-        max-width: 720px;
+        max-width: 450px;
     }
     .head-article p{
         font-size: 12px;
+    }
+
+    .head-article img{
+        scale: 70%;
     }
 }
 
