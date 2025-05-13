@@ -16,14 +16,16 @@
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 720px){
     body{
-        max-width: 450px;
+        max-width: 720px;
     }
     .head-article p{
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 1000px){}
 
 
 .navbar .search-bar{
@@ -127,16 +129,12 @@
     background-color: violet;
 }
 
-@media screen and (min-width: 1200px) {
-
-}
-
 
 
     p, a, span,header,h6,h5,h4,h3,h2,h1,footer{
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
     }
-}
+
 
 
