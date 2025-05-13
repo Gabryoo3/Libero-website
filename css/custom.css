@@ -23,7 +23,6 @@
     .head-article p{
         font-size: 12px;
     }
-
     .head-article img{
         scale: 70%;
     }
@@ -93,15 +92,21 @@
     color: #ffffff;
 }
 
+.head-article header{
+    background-color: #82b0f0;
+    color: #000000;
+}
+
+.head-article p{
+    font-size: 25px;
+}
+
 .arrow-button{
     background-color: #82b0f0;
     border: none; /* Remove border */
     padding: 20px;
 }
 
-.page-content{
-    margin-top: 140px;
-}
 
 .central-zone .central-articles{
     margin-top: 220px;
@@ -114,8 +119,11 @@
 .main-article p{
     font-size:100px;
 }
+ .left-articles p{
+    font-size: 40px;
+ }
 
-@media screen and (max-width: 992px){
+*@media screen and (max-width: 992px){
     .main-article p{
         font-size: 75px;
     }
@@ -135,10 +143,10 @@
 
 
 
-    p, a, span,header,h6,h5,h4,h3,h2,h1,footer{
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-    }
+p, a, span,header,h6,h5,h4,h3,h2,h1,footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
 
 
 
