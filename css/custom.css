@@ -72,7 +72,7 @@
     border: none;
 }
 .dropdown-center .dropdown-menu a{
-   
+    padding: 10px 20px;
 }
 
 .dropdown-center .dropdown-menu a:hover{
@@ -119,21 +119,24 @@
     background-color: cyan;
 }
 
+.central-zone .other-article footer{
+    font-size: 13px;
+}
+
 .central-zone .central-articles .right-articles{
     background-color: violet;
 }
-.bottom-articles .minor-article{
-    width: 185px;
-}
-.bottom-articles .middle-article{
-    width: 368px;
+
+@media screen and (min-width: 1200px) {
+
 }
 
 
 
-p, a, span,header,h6{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    p, a, span,header,h6,h5,h4,h3,h2,h1,footer{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
 }
 
 
