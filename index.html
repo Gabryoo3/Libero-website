@@ -44,8 +44,8 @@
         <div class="offcanvas offcanvas-end align-self-stretch p-0" tabindex="-1" id="navbarSearchCanvas"
              aria-labelledby="offCanvasExampleLabel">
             <div id="navbarSearchDropdown" class=" offcanvas-body justify-content-end h-100">
-                <div class="row justify-content-end">
-                <div class="search-bar d-flex align-content-center col-lg-6 col-7">
+                <div class="row" style="margin-right: -2.5em">
+                <div class="search-bar align-content-center col-lg-6 col-7">
                     <form role="search" class="align-content-center">
                         <div class="input-group align-items-center">
                             <i class="fa fa-search text-white ps-4" aria-hidden="true"></i>
@@ -105,7 +105,7 @@
                             <div class="col-lg-8 col-12 left-articles border-end border-black ">
                                 <!--There will be two columns, divided in rows-->
                                 <div class="row main-article pb-5 border-black border-bottom">
-                                    <p style="font-size:100px" class="text-uppercase">Lorem ipsum dolor</p>
+                                    <p class="text-uppercase">Lorem ipsum dolor</p>
                                     <br>
                                     <span class="article-image mt-3 ps-0" style="background-color: red" href="#">
                                         <img src="https://placehold.co/157x86" alt="Article Image" class="pe-5 ">
@@ -240,7 +240,7 @@
 
                             </div>
                         </div>
-                        <div class="row align-items-center border-bottom border-black"><!--Sport article-->
+                        <div class="row align-items-center border-bottom border-black sport-article"><!--Sport article-->
                             <header>LOREM></header>
                             <div class="col-lg-8 col-12 left-articles border-end border-black px-4">
                                 <div class="row main-article pb-2 pt-4">
@@ -280,7 +280,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row align-items-center mb-1"><!--Actuality articles-->
+                        <div class="row align-items-center actuality-article mb-1"><!--Actuality articles-->
                             <header class="ps-3">LOREM></header>
                             <div class="row "> <!--First two articles-->
                                 <div class="col-lg-6 col-12 left-articles border-end border-secondary px-4">
@@ -316,8 +316,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row pt-3 row-cols-4">
-                                <div class="col-lg-2 col-6 order-2 order-lg-1 border-end border-secondary"><!--Articles on the left-->
+                            <div class="row pt-3 bottom-articles flex-nowrap">
+                                <div class="col-lg-2 col-6 order-2 order-lg-1 border-end border-secondary minor-article"><!--Articles on the left-->
                                     <div class="row top-article border-secondary border-bottom">
                                         <img src="https://placehold.co/178x133.png" alt="Article Image" class="img-fluid">
                                         <p class="text-uppercase">LOREM IPSUM DOLOR SIT</p>
@@ -329,7 +329,7 @@
                                         <footer><p style="font-size: 13px; color: #5d71ab">1 Lorem 1234</p></footer>
                                     </div>
                                 </div>
-                                <div class="col-lg-2 col-6 order-3 order-lg-2 border-end border-secondary ">
+                                <div class="col-lg-2 col-6 order-3 order-lg-2 border-end border-secondary minor-article ">
                                     <div class="row top-article border-secondary border-bottom ">
                                         <img src="https://placehold.co/178x133" alt="Article Image">
                                         <p class="text-uppercase">LOREM IPSUM DOLOR SIT</p>
@@ -341,13 +341,13 @@
                                         <footer><p style="font-size: 13px; color: #5d71ab">1 Lorem 1234</p></footer>
                                     </div>
                                 </div>
-                                <div class=" col-lg-5 col-6 order-1 order-lg-3 px-3  border-secondary border-end"><!--Middle article-->
-                                    <img src="https://placehold.co/357x268" alt="Article Image" class="img-fluid">
+                                <div class="middle-article col-6 order-1 order-lg-3 px-3 border-secondary border-end"><!--Middle article-->
+                                    <img src="https://placehold.co/634x487" alt="Article Image" class="img-fluid">
                                     <p class="text-uppercase pt-3">Lorem ipsum dolor sit amet</p>
                                     <footer><p style="font-size: 11px" class="text-secondary">Lorem ipsum</p></footer>
                                     <p style="font-size: 13px; color: #5d71ab">1 Lorem 1234</p>
                                 </div>
-                                <div class="col-lg-2 col-6 order-4 order-lg-4 align-self-end border-end border-secondary pe-3"><!--Articles on the right-->
+                                <div class="col-lg-2 col-6 order-4 order-lg-4 align-self-end border-end border-secondary pe-3 minor-article"><!--Articles on the right-->
                                     <div class="row top-article border-secondary border-bottom">
                                         <img src="https://placehold.co/178x133.png" alt="Article Image" class="img-fluid">
                                         <p class="text-uppercase">LOREM IPSUM DOLOR SIT</p>
