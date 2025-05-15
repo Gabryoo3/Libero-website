@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/custom.css">
 </head>
-<body class="bg-white me-0">
+<body class="bg-white me-0 overflow-x-hidden">
 <nav class="navbar top-navbar navbar-expand-lg sticky-top p-0">
     <div class="container-fluid justify-content-md-start flex-nowrap pe-0">
         <a class="navbar-brand" href="#">
@@ -46,29 +46,29 @@
         <div class="offcanvas offcanvas-end align-self-stretch" tabindex="-1" id="navbarSearchCanvas">
             <div id="navbarSearchDropdown" class=" offcanvas-body justify-content-end h-100">
                 <div class="row me-0 justify-content-end">
-                <div class="search-bar align-content-center col-lg-6 col-7">
-                    <form role="search" class="align-content-center">
-                        <div class="input-group align-items-center">
-                            <i class="fa fa-search text-white ps-4" aria-hidden="true"></i>
-                            <input class="form-control ps-3" type="search" placeholder="LOREM IPSUM"
-                                   aria-label="Search">
-                        </div>
-                    </form>
+                    <div class="search-bar align-content-center col-lg-6 col-7">
+                        <form role="search" class="align-content-center">
+                            <div class="input-group align-items-center">
+                                <i class="fa fa-search text-white ps-4" aria-hidden="true"></i>
+                                <input class="form-control ps-3" type="search" placeholder="LOREM IPSUM"
+                                       aria-label="Search">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="dropdown-center align-content-center col-lg-4 col-5 p-0">
+                        <button class="dropdown-toggle btn-lg btn rounded-0 h-100" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                            <a>CATEGORIE</a>
+                        </button>
+                        <ul class="dropdown-menu rounded-0  border-0 w-100 text-uppercase">
+                            <li><a class="dropdown-item" href="#">Lorem</a></li>
+                            <li><a class="dropdown-item" href="#">Ipsum</a></li>
+                            <li><a class="dropdown-item" href="#">Dolor</a></li>
+                            <li><a class="dropdown-item" href="#">Sit</a></li>
+                            <li><a class="dropdown-item" href="#">Amet</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="dropdown-center align-content-center col-lg-4 col-5 p-0">
-                    <button class="dropdown-toggle btn-lg btn rounded-0 h-100" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                        <a>CATEGORIE</a>
-                    </button>
-                    <ul class="dropdown-menu rounded-0  border-0 w-100 text-uppercase">
-                        <li><a class="dropdown-item" href="#">Lorem</a></li>
-                        <li><a class="dropdown-item" href="#">Ipsum</a></li>
-                        <li><a class="dropdown-item" href="#">Dolor</a></li>
-                        <li><a class="dropdown-item" href="#">Sit</a></li>
-                        <li><a class="dropdown-item" href="#">Amet</a></li>
-                    </ul>
-                </div>
-            </div>
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@
 <div class="head-article">
     <div class="container-fluid h-100 ">
         <div class="row h-100 d-flex flex-nowrap bg-black">
-            <div class="col-auto align-content-center arrow-button py-5 px-4 d-none d-md-grid" >
+            <div class="col-auto align-content-center arrow-button py-5 px-4 d-none d-md-grid">
                 <i class="fa fa-arrow-right"></i>
             </div>
             <div class="col-7 me-auto py-4 align-content-center">
@@ -87,7 +87,7 @@
                     <p class="article-text mt-2 text-uppercase">Lorem ipsum dolor sit amet, consectetur. </p>
                 </div>
             </div>
-            <div class="col-lg-auto col-4 align-content-center pe-0">
+            <div class="col-lg-auto col-5 align-content-center pe-0">
                 <img src="https://placehold.co/295x166.webp" alt="Article image in header" class="end-100 img-fluid">
             </div>
         </div>
@@ -95,10 +95,10 @@
 </div>
 <div class="central-zone bg-primary">
     <div class="container-fluid">
-        <div class="row  justify-content-center"> <!--This row contains the whole content and aligh it-->
+        <div class="row justify-content-center"> <!--This row contains the whole content and aligh it-->
             <div class="col-12 col-lg-6 page-content text-break">
                 <!--The column sets the width of the row below-->
-                <div class="row central-articles"><!--This row has the news-->
+                <div class="row central-articles "><!--This row has the news-->
                     <div class="col-12">
                         <div class="row align-items-center border-bottom border-black">
                             <div class="col-lg-8 col-12 main-article border-end border-black ">
@@ -113,140 +113,140 @@
                             </div><!--Main article-->
                             <div class="col-lg-4 col-12 right-central-articles right-articles pe-5 pb-3">
                                 <div class="row pt-4 border-black border-bottom">
-                                    <p class="description-main-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod
+                                    <p class="description-main-article">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Cras non euismod
                                         augue.</p>
                                     <footer class="mt-3"><p class="author"><b>Lorem</b></p></footer>
                                 </div>
                                 <div class="row other-article pt-4">
-                                    <p class="text-uppercase"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p class="text-uppercase"> Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.</p>
                                 </div>
                             </div><!--Main article description-->
                             <!--Other articles-->
                             <div class="col-lg-8 col-12 left-central-articles left-articles border-bottom border-secondary  ">
                                 <div class="row main-article pb-2">
-                                    <div class="col-6">
-                                        <header>LOREM</header>
+                                    <div class="col-lg-6 col-12 order-2 order-lg-1">
+                                        <header class="pt-1">LOREM</header>
                                         <p class="text-uppercase">Lorem ipsum dolor sit
                                             amet.
                                     </div>
-                                    <div class="col-6">
-                                        <a class="article-image " href="#">
-                                            <img src="https://placehold.co/329x247" alt="Left article Image 1" class="img-fluid">
-                                        </a>
+                                    <div class="col-12 col-lg-6 order-1 order-lg-2">
+                                            <img src="https://placehold.co/329x247" alt="Left article Image 1"
+                                                 class="img-fluid">
                                     </div>
-                                    <div class="col-12 border-top border-secondary pt-3">
-                                        <span class="text-uppercase flash-text">
-                                            <b>LOREM</b>
+                                    </div>
+                                <div class="col-12 border-top border-secondary py-3">
+                                        <span class="text-uppercase">
+                                            <b class="flash-text">LOREM </b> IPSUM DOLOR SIN
                                         </span>
-                                        <span>
-                                            IPSUM DOLOR SIT AMET
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12 right-central-articles right-articles pb-3">
+                                <div class="row other-article pt-4 border-black border-bottom">
+                                    <a class="article-image " href="#">
+                                        <img src="https://placehold.co/60x60" alt="Right Article Image 1"
+                                             class="img-fluid">
+                                    </a>
+                                    <h5 class="text-uppercase pt-2">Lorem ipsum dolor sit amet</h5>
+                                    <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod
+                                        augue.</h6>
+                                    <footer class="pb-3 text-secondary">Lorem ipsum</footer>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-12 left-central-articles left-articles border-bottom border-secondary  ">
+                                <div class="row main-article pb-2">
+                                    <div class="col-lg-6 col-12 order-2 order-lg-1">
+                                        <header class="pt-1">LOREM</header>
+                                        <p class="text-uppercase">Lorem ipsum dolor sit
+                                            amet.
+                                    </div>
+                                    <div class="col-12 col-lg-6 order-1 order-lg-2">
+                                        <img src="https://placehold.co/329x247" alt="Left article Image 1"
+                                             class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-12 border-top border-secondary py-3">
+                                        <span class="text-uppercase">
+                                            <b class="flash-text">LOREM </b> IPSUM DOLOR SIN
                                         </span>
-                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-12 right-central-articles right-articles pb-3">
                                 <div class="row other-article pt-4 border-black border-bottom">
                                     <a class="article-image " href="#">
-                                        <img src="https://placehold.co/60x60" alt="Right Article Image 1" class="img-fluid">
+                                        <img src="https://placehold.co/60x60" alt="Right Article Image 1"
+                                             class="img-fluid">
                                     </a>
-                                    <h5 class="text-uppercase">Lorem ipsum dolor sit amet</h5>
+                                    <h5 class="text-uppercase pt-2">Lorem ipsum dolor sit amet</h5>
                                     <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod
                                         augue.</h6>
-                                    <footer class="pb-3 text-secondary" >Lorem ipsum</footer>
+                                    <footer class="pb-3 text-secondary">Lorem ipsum</footer>
                                 </div>
-
                             </div>
-                            <div class="col-lg-8 col-12 left-central-articles left-articles  ">
-                                <div class="row main-article pb-2"
-                                     style="padding-top:150px;">
-                                    <div class="col-6">
-                                        <header>LOREM</header>
+                            <div class="col-lg-8 col-12 left-central-articles left-articles border-bottom border-secondary  ">
+                                <div class="row main-article pb-2">
+                                    <div class="col-lg-6 col-12 order-2 order-lg-1">
+                                        <header class="pt-1">LOREM</header>
                                         <p class="text-uppercase">Lorem ipsum dolor sit
-                                            amet.</p>
+                                            amet.
                                     </div>
-                                    <div class="col-6">
-                                        <a class="article-image " href="#">
-                                            <img src="https://placehold.co/329x247" alt="Left article Image 2" class="img-fluid">
-                                        </a>
+                                    <div class="col-12 col-lg-6 order-1 order-lg-2">
+                                        <img src="https://placehold.co/329x247" alt="Left article Image 1"
+                                             class="img-fluid">
                                     </div>
-
                                 </div>
-
+                                <div class="col-12 border-top border-secondary py-3">
+                                        <span class="text-uppercase">
+                                            <b class="flash-text">LOREM </b> IPSUM DOLOR SIN
+                                        </span>
+                                </div>
                             </div>
                             <div class="col-lg-4 col-12 right-central-articles right-articles pb-3">
                                 <div class="row other-article pt-4 border-black border-bottom">
                                     <a class="article-image " href="#">
-                                        <img src="https://placehold.co/60x60" alt="Right Article Image 1" class="img-fluid">
+                                        <img src="https://placehold.co/60x60" alt="Right Article Image 1"
+                                             class="img-fluid">
                                     </a>
-                                    <h5 class="text-uppercase">Lorem ipsum dolor sit amet</h5>
+                                    <h5 class="text-uppercase pt-2">Lorem ipsum dolor sit amet</h5>
                                     <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod
                                         augue.</h6>
-                                    <footer class="pb-3 text-secondary" >Lorem ipsum</footer>
+                                    <footer class="pb-3 text-secondary">Lorem ipsum</footer>
                                 </div>
-
                             </div>
-                            <div class="col-lg-8 col-12 left-central-articles left-articles  ">
-                                <div class="row main-article pb-2"
-                                     style="padding-top:150px;">
-                                    <div class="col-6">
-                                        <header>LOREM</header>
+                            <div class="col-lg-8 col-12 left-central-articles left-articles border-bottom border-secondary  ">
+                                <div class="row main-article pb-2">
+                                    <div class="col-lg-6 col-12 order-2 order-lg-1">
+                                        <header class="pt-1">LOREM</header>
                                         <p class="text-uppercase">Lorem ipsum dolor sit
-                                            amet.</p>
+                                            amet.
                                     </div>
-                                    <div class="col-6">
-                                        <a class="article-image " href="#">
-                                            <img src="https://placehold.co/329x247" alt="Left article Image 3" class="img-fluid">
-                                        </a>
-
+                                    <div class="col-12 col-lg-6 order-1 order-lg-2">
+                                        <img src="https://placehold.co/329x247" alt="Left article Image 1"
+                                             class="img-fluid">
                                     </div>
-
                                 </div>
-
+                                <div class="col-12 border-top border-secondary py-3">
+                                        <span class="text-uppercase">
+                                            <b class="flash-text">LOREM </b> IPSUM DOLOR SIN
+                                        </span>
+                                </div>
                             </div>
                             <div class="col-lg-4 col-12 right-central-articles right-articles pb-3">
                                 <div class="row other-article pt-4 border-black border-bottom">
                                     <a class="article-image " href="#">
-                                        <img src="https://placehold.co/60x60" alt="Right Article Image 1" class="img-fluid">
+                                        <img src="https://placehold.co/60x60" alt="Right Article Image 1"
+                                             class="img-fluid">
                                     </a>
-                                    <h5 class="text-uppercase">Lorem ipsum dolor sit amet</h5>
+                                    <h5 class="text-uppercase pt-2">Lorem ipsum dolor sit amet</h5>
                                     <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod
                                         augue.</h6>
-                                    <footer class="pb-3 text-secondary" >Lorem ipsum</footer>
+                                    <footer class="pb-3 text-secondary">Lorem ipsum</footer>
                                 </div>
-
-                            </div>
-                            <div class="col-lg-8 col-12 left-central-articles left-articles ">
-                                <div class="row main-article pb-2"
-                                     style="padding-top:150px;">
-                                    <div class="col-6">
-                                        <header>LOREM</header>
-                                        <p  class="text-uppercase">Lorem ipsum dolor sit
-                                            amet.</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <a class="article-image " href="#">
-                                            <img src="https://placehold.co/329x247" alt="Left article Image 4" class="img-fluid">
-                                        </a>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <div class="col-lg-4 col-12 right-central-articles right-articles pb-3">
-                                <div class="row other-article pt-4 border-black border-bottom">
-                                    <a class="article-image " href="#">
-                                        <img src="https://placehold.co/60x60" alt="Right Article Image 1" class="img-fluid">
-                                    </a>
-                                    <h5 class="text-uppercase">Lorem ipsum dolor sit amet</h5>
-                                    <h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod
-                                        augue.</h6>
-                                    <footer class="pb-3 text-secondary" >Lorem ipsum</footer>
-                                </div>
-
                             </div>
                         </div>
-                        <div class="row align-items-center border-bottom border-black sport-article"><!--Sport article-->
+                        <div class="row align-items-center border-bottom border-black sport-article">
+                            <!--Sport article-->
                             <header>LOREM></header>
                             <div class="col-lg-8 col-12 left-sport-articles left-articles border-end border-black px-4">
                                 <div class="row main-article py-4">
@@ -267,14 +267,16 @@
                                 <div class="row other-article pt-4  border-secondary border-bottom">
                                     <div class="col-6 justify-content-center border-end border-black">
                                         <a class="article-image " href="#">
-                                            <img src="https://placehold.co/143x107" alt="Sport right article image 1" class="img-fluid">
+                                            <img src="https://placehold.co/143x107" alt="Sport right article image 1"
+                                                 class="img-fluid">
                                         </a>
 
                                         <p class="text-uppercase justify-content-center">LOREM IPSUM DOLOR SIT</p>
                                     </div>
                                     <div class="col-6 justify-content-center  border-black">
                                         <a class="article-image " href="#">
-                                            <img src="https://placehold.co/143x107" alt="Sport right article image 2" class="img-fluid">
+                                            <img src="https://placehold.co/143x107" alt="Sport right article image 2"
+                                                 class="img-fluid">
                                         </a>
                                         <p class="text-uppercase justify-content-center">LOREM IPSUM DOLOR SIT</p>
                                     </div>
@@ -282,13 +284,15 @@
                                 <div class="row other-article pt-4">
                                     <div class="col-6 justify-content-center border-end  border-black">
                                         <a class="article-image " href="#">
-                                        <img src="https://placehold.co/143x107" alt="Sport right article image 3" class="img-fluid">
+                                            <img src="https://placehold.co/143x107" alt="Sport right article image 3"
+                                                 class="img-fluid">
                                         </a>
                                         <p class="text-uppercase justify-content-center">LOREM IPSUM DOLOR SIT</p>
                                     </div>
                                     <div class="col-6 justify-content-center   border-black">
                                         <a class="article-image " href="#">
-                                        <img src="https://placehold.co/143x107" alt="Sport right article image 4" class="img-fluid">
+                                            <img src="https://placehold.co/143x107" alt="Sport right article image 4"
+                                                 class="img-fluid">
                                         </a>
                                         <p class="text-uppercase justify-content-center">LOREM IPSUM DOLOR SIT</p>
                                     </div>
@@ -301,7 +305,7 @@
                                 <div class="col-lg-6 col-12 left-articles left-actuality-articles border-end border-secondary px-4">
                                     <div class="row pb-2">
                                         <div class="card p-0 rounded-0">
-                                                <img src="https://placehold.co/490x218" alt="Top actualty image 1">
+                                            <img src="https://placehold.co/490x218" alt="Top actualty image 1">
                                             <div class="card-img-overlay pt-1 ps-0 container-fluid">
                                                 <p class="card-text text-uppercase">
                                                     <mark class="p-2 bg-white">LOREM IPSUM
@@ -313,14 +317,14 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-12 right-articles right-actuality-articles px-4">
-                                    <div class="row pb-2">
+                                    <div class="row pb-2 flex-fill">
                                         <div class="card p-0 rounded-0">
-                                                <img src="https://placehold.co/490x218" alt="Top actuality image 2"
-                                                     class="img-fluid">
+                                            <img src="https://placehold.co/490x218" alt="Top actuality image 2"
+                                                 class="img-fluid">
 
                                             <div class="card-img-overlay pt-1 ps-0">
-                                                <p class="card-text text-uppercase" style="font-size: 28px">
-                                                    <mark class="p-2 bg-white">LOREM IPSUM
+                                                <p class="card-text text-uppercase">
+                                                    <mark class="bg-white">LOREM IPSUM
                                                         DOLOR SIT AMET: consecteur adipisciting elit.
                                                     </mark>
                                                 </p>
@@ -330,47 +334,57 @@
                                 </div>
                             </div>
                             <div class="row row-cols-4 pt-3 bottom-articles">
-                                <div class="col-lg-2 col-6 order-2 order-lg-1 border-end border-secondary minor-article flex-lg-fill"><!--Articles on the left-->
+                                <div class="col-lg-2 col-6 order-2 order-lg-1 border-end border-secondary minor-article flex-lg-fill">
+                                    <!--Articles on the left-->
                                     <div class="row top-article border-secondary border-bottom">
-                                        <img src="https://placehold.co/178x133" alt="Bottom actuality image 1" class="img-fluid">
+                                        <img src="https://placehold.co/178x133" alt="Bottom actuality image 1"
+                                             class="img-fluid">
                                         <span class="text-uppercase">LOREM IPSUM DOLOR SIT</span>
                                         <footer>1 Lorem 1234</footer>
                                     </div>
                                     <div class="row bottom-article pt-3">
-                                        <img src="https://placehold.co/178x133" alt="Bottom actuality image 2" class="img-fluid">
+                                        <img src="https://placehold.co/178x133" alt="Bottom actuality image 2"
+                                             class="img-fluid">
                                         <span class="text-uppercase pt-1">LOREM IPSUM DOLOR SIT</span>
                                         <footer>1 Lorem 1234</footer>
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-6 order-3 order-lg-2 border-end border-secondary minor-article flex-lg-fill ">
                                     <div class="row top-article border-secondary border-bottom ">
-                                        <img src="https://placehold.co/178x133" alt="Bottom actuality image 3" class="img-fluid">
+                                        <img src="https://placehold.co/178x133" alt="Bottom actuality image 3"
+                                             class="img-fluid">
                                         <span class="text-uppercase pt-1">LOREM IPSUM DOLOR SIT</span>
                                         <footer>1 Lorem 1234</footer>
                                     </div>
                                     <div class="row bottom-article pt-3 ">
-                                        <img src="https://placehold.co/178x133" alt="Bottom actuality image 4" class="img-fluid">
+                                        <img src="https://placehold.co/178x133" alt="Bottom actuality image 4"
+                                             class="img-fluid">
                                         <span class="text-uppercase pt-1">LOREM IPSUM DOLOR SIT</span>
                                         <footer>1 Lorem 1234</footer>
                                     </div>
                                 </div>
-                                <div class="middle-article col-lg-4 col-sm-6 col-12 order-1 order-lg-3 px-3 border-secondary border-end flex-lg-fill"><!--Middle article-->
+                                <div class="middle-article col-lg-4 col-sm-6 col-12 order-1 order-lg-3 px-3 border-secondary border-end flex-lg-fill">
+                                    <!--Middle article-->
                                     <a class="article-image " href="#">
-                                        <img src="https://placehold.co/634x487" alt="Bottom actuality image 5" class="img-fluid">
+                                        <img src="https://placehold.co/634x487" alt="Bottom actuality image 5"
+                                             class="img-fluid">
                                     </a>
 
                                     <span class="text-uppercase pt-3 flash-text">Lorem </span><br>
-                                    <span>Lorem ipsum dolor sit amet</span>
+                                    <span class="text-uppercase">Lorem ipsum dolor sit amet</span>
                                     <footer>1 Lorem 1234</footer>
                                 </div>
-                                <div class="col-lg-2 col-6 order-4  border-end border-secondary pe-3 minor-article flex-lg-fill"><!--Articles on the right-->
+                                <div class="col-lg-2 col-6 order-4  border-end border-secondary pe-3 minor-article flex-lg-fill">
+                                    <!--Articles on the right-->
                                     <div class="row top-article border-secondary border-bottom">
-                                        <img src="https://placehold.co/178x133.png" alt="Bottom actuality image 6" class="img-fluid">
+                                        <img src="https://placehold.co/178x133.png" alt="Bottom actuality image 6"
+                                             class="img-fluid">
                                         <span class="text-uppercase pt-1">LOREM IPSUM DOLOR SIT</span>
                                         <footer>1 Lorem 1234</footer>
                                     </div>
                                     <div class="row bottom-article pt-3">
-                                        <img src="https://placehold.co/178x133" alt="Bottom actuality image 7" class="img-fluid">
+                                        <img src="https://placehold.co/178x133" alt="Bottom actuality image 7"
+                                             class="img-fluid">
                                         <span class="text-uppercase pt-1">LOREM IPSUM DOLOR SIT</span>
                                         <footer>1 Lorem 1234</footer>
                                     </div>
@@ -378,19 +392,27 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row p-4 subscription text-white"><!--Subscription-->
-                        <div class="col-md-7 col-12 align-content-center text-center text-md-start ">
+                    <div class="col-12">
+                        <div class="row p-4 subscription text-white"><!--Subscription-->
+                            <div class="col-md-7 col-12 align-content-center text-center text-md-start ">
                             <span class="text-uppercase text-white justify-content-center "><b>Lorem ipsum dolor</b>
                                 <span class="sub-title">sit amet, consectetur adipiscing.</span></span><br>
-                            <span class="sub-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                <span class="sub-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Morbi pellentesque blandit ante, vel gravida lorem fringilla.</span>
-                        </div>
-                        <div class="col-md-5 col-12 align-content-center text-center text-md-start pt-4 text-nowrap">
-                            <button type="button" class="btn btn-light text-uppercase rounded-0 me-4 ">Lorem ipsum</button>
-                            <button type="button" class="btn btn-outline-light text-uppercase rounded-0 m-0">Lorem ipsum</button>
+                            </div>
+                            <div class="col-md-5 col-12 align-content-center text-center text-md-start pt-4 text-nowrap">
+                                <div class="d-grid d-sm-block">
+                                <button type="button" class="btn btn-light text-uppercase rounded-0 me-lg-3 me-sm-5 mb-3 mb-sm-0 ">Lorem ipsum
+                                </button>
+                                <button type="button" class="btn btn-outline-light text-uppercase rounded-0">Lorem
+                                    ipsum
+                                </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row bg-black pt-5 ps-4 pb-5 text-white"><!--Logo and social media-->
+                    <div class="col-12">
+                        <div class="row bg-black pt-5 ps-4 pb-5 text-white"><!--Logo and social media-->
                         <div class="col-12 col-lg-auto">
                             <div class="row">
                                 <a class="logo" href="#">
@@ -415,11 +437,24 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-lg-2 col-12">
-                            <div class="row pt-5">
+                        <div class="d-md-flex d-none">
+                            <div class="col-2">
+                            <div class="row">
                                 <p>lorem</p>
                             </div>
+                                <div class="row">
+                                    <p>lorem</p>
+                                </div>
+                                <div class="row">
+                                    <p>lorem</p>
+                                </div>
+                                <div class="row">
+                                    <p>lorem</p>
+                                </div>
+                                <div class="row">
+                                    <p>lorem</p>
+                                </div>
+
                         </div>
                         <div class="col-2">
                             <div class="row pt-5">
@@ -463,49 +498,41 @@
                                 <p>Lorem</p>
                             </div>
                         </div>
-                        <div class="col-2">
-                            <div class="row pb-3">
-                                <p class="text-uppercase"><b>Lorem</b></p>
-                            </div>
-                            <div class="row">
-                                <p>Lorem</p>
-                            </div>
-                            <div class="row">
-                                <p>Lorem</p>
-                            </div>
+                        </div><!--Logo and social media-->
                         </div>
-
-                    </div><!--Logo and social media-->
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
     <div class="end-page border-top bg-black text-white">
         <div class="row justify-content-center ">
-            <div class="col-7 justify-content-center">
-                <div class="row row-cols-3 row-cols-lg-6 pb-3">
-                    <div class="col-2 text-center text-break">
-                        Lorem Ipsum
+            <div class="col-md-6 col-12 justify-content-center">
+                <div class="row row-cols-auto row-cols-md-6 pb-3">
+                    <div class="col pb-3">
+                        <span>Lorem Ipsum</span>
                     </div>
 
-                    <div class="col-2 text-center text-break">
-                        Lorem Ipsum
+                    <div class="col pb-3 ">
+                        <span>Lorem Ipsum</span>
                     </div>
 
-                    <div class="col-2 text-center text-break">
-                        Lorem Ipsum
+                    <div class="col pb-3 ">
+                        <span>Lorem Ipsum</span>
                     </div>
 
-                    <div class="col-2 text-center text-break">
-                        Lorem Ipsum
+                    <div class="col pb-3 ">
+                        <span>Lorem Ipsum</span>
                     </div>
 
-                    <div class="col-2 text-center text-break">
-                        Lorem Ipsum
+                    <div class="col pb-3">
+                        <span>Lorem Ipsum</span>
                     </div>
 
-                    <div class="col-2 text-center text-break">
-                        Lorem Ipsum
+                    <div class="col pb-3">
+                        <span>Lorem Ipsum</span>
                     </div>
                 </div>
                 <div class="row">
@@ -517,6 +544,6 @@
             </div>
         </div>
     </div>
-</div>
+
 </body>
 </html>

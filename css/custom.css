@@ -29,8 +29,8 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     body{
         max-width: 200px;
     }
-    p{
-        scale: 50%;
+    .main-article p{
+        font-size: 40px;
     }
     .head-article img{
         scale: 40%;
@@ -109,6 +109,10 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     color: #000000;
 }
 
+.left-articles header{
+    font-size: 12px;
+}
+
 .head-article p{
     font-size: 25px;
 }
@@ -180,6 +184,10 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     background-color: violet;
 }
 
+.bottom-articles span{
+    font-weight: 700;
+}
+
 .bottom-articles footer{
     font-size: 13px;
     color: #5d71ab;
@@ -196,6 +204,10 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 
 .subscription .sub-description{
     font-size: 15px;
+    font-weight: 400;
+}
+
+.end-page p, span{
     font-weight: 400;
 }
 
