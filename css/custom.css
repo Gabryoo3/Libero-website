@@ -27,7 +27,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 
 @media screen and (max-width: 400px){
     body{
-        width: 400px;
+        max-width: 400px;
     }
     .main-article p{
         font-size: 40px;
