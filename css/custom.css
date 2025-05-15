@@ -204,7 +204,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 
 @media screen and (max-width: 450px){
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 
     .central-zone .central-articles{
