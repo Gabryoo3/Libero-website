@@ -25,14 +25,13 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 480px){
     body{
-        max-width: 400px;
+        overflow-x: hidden !important;
     }
     .main-article p{
-        font-size: 40px;
+        font-size: 70px !important;
     }
-
 }
 
 
