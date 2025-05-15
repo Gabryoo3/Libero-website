@@ -5,10 +5,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     font-weight: 700;
     font-style: normal;
 }
-body{
-    max-width:1920px;
 
-}
 .top-navbar{
     background-color: #071425; /* Background color */
 
@@ -32,8 +29,8 @@ body{
     body{
         max-width: 200px;
     }
-    .head-article p{
-        font-size: 12px;
+    p{
+        scale: 50%;
     }
     .head-article img{
         scale: 40%;
