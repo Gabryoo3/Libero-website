@@ -31,6 +31,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     }
     .main-article p{
         font-size: 70px !important;
+        color: green !important;
     }
 }
 
