@@ -25,9 +25,9 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     }
 }
 
-@media screen and (max-width: 200px){
+@media screen and (max-width: 400px){
     body{
-        max-width: 200px;
+        max-width: 400px;
     }
     .main-article p{
         font-size: 40px;
@@ -145,9 +145,12 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 .central-articles .left-central-articles{
     padding-top:70px
 }
- .left-articles p{
+
+.central-articles .left-central-articles p, .central-articles .right-central-articles{
     font-size: 40px;
  }
+
+
 
  .central-articles .right-articles footer{
      font-size: 13px;
@@ -172,17 +175,12 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     font-size: 28px;
 }
 
-.central-zone .central-articles .left-articles{
-    background-color: cyan;
-}
+
 
 .central-zone .other-article footer{
     font-size: 13px;
 }
 
-.central-zone .central-articles .right-articles{
-    background-color: violet;
-}
 
 .bottom-articles span{
     font-weight: 700;
