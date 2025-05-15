@@ -5,7 +5,10 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     font-weight: 700;
     font-style: normal;
 }
+body{
+    max-width:1920px;
 
+}
 .top-navbar{
     background-color: #071425; /* Background color */
 
