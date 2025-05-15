@@ -27,13 +27,13 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 
 @media screen and (max-width: 450px){
     body{
-        max-width: 450px;
+        max-width: 600px;
     }
     .head-article p{
         font-size: 12px;
     }
     .head-article img{
-        scale: 70%;
+        scale: 40%;
     }
 }
 
