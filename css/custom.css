@@ -25,9 +25,9 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 200px){
     body{
-        max-width: 600px;
+        max-width: 200px;
     }
     .head-article p{
         font-size: 12px;
