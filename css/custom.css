@@ -146,7 +146,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     padding-top:70px
 }
 
-.central-articles .left-central-articles p, .central-articles .right-central-articles{
+.central-articles .left-central-articles p, .central-articles .right-central-articles, .left-sport-articles p{
     font-size: 40px;
  }
 
@@ -168,7 +168,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 }
 
 .flash-text{
-    color: #4d87d5
+    color: #1a5fb4
 }
 
 .actuality-article .card-text{
