@@ -19,21 +19,14 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     color: #ffffff ; /* Text color on hover */
 }
 
+
 @media screen and (min-width: 992px){
     .page-content{
         min-width: 992px;
     }
 }
 
-@media screen and (max-width: 480px){
-    body{
-        overflow-x: hidden !important;
-    }
-    .main-article p{
-        font-size: 70px !important;
-        color: green !important;
-    }
-}
+
 
 
 
@@ -159,11 +152,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     font-weight: 400;
 }
 
-*@media screen and (max-width: 992px){
-    .main-article p{
-        font-size: 75px;
-    }
-}
+
 
 .flash-text{
     color: #1a5fb4
@@ -207,8 +196,25 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     font-weight: 400;
 }
 
+*@media screen and (max-width: 992px){
+    .main-article p{
+        font-size: 75px;
+    }
+}
 
+@media screen and (max-width: 450px){
+    body{
+        overflow-x: hidden;
+    }
 
+    .central-zone .central-articles{
+        margin-top: 80px ;
+    }
+    .main-article p{
+        font-size: 70px ;
+
+    }
+}
 
 
 
