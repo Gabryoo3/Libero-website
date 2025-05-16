@@ -196,6 +196,10 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
     font-weight: 400;
 }
 
+.end-page .btn:focus,.end-page .btn:hover, .end-page .btn:active{
+    outline: none;
+}
+
 *@media screen and (max-width: 992px){
     .main-article p{
         font-size: 75px;
