@@ -72,6 +72,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 .dropdown-center .btn{
     background-color: #0d396f;
     color: #ffffff;
+
 }
 
 .dropdown-center .btn:focus{
@@ -81,6 +82,7 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 }
 .dropdown-center .dropdown-menu a{
     padding: 10px 20px;
+    font-weight: 500;
 }
 
 .dropdown-center .dropdown-menu a:hover{
@@ -198,6 +200,11 @@ p, a, span, header, h6, h5, h4, h3, h2, h1, footer{
 
 .end-page .btn:focus,.end-page .btn:hover, .end-page .btn:active{
     outline: none;
+}
+
+.end-page .page-info{
+    font-size: 15px;
+    font-weight: 400;
 }
 
 *@media screen and (max-width: 992px){
